@@ -1,0 +1,27 @@
+/* After defaulting to phone layout, then design for tablet, then for desktop */
+
+/* media queries are used to determine resolution of device used to access page */
+
+@media (min-width: 720px) {
+
+    #footer-container {
+        flex-direction: row;
+      }
+
+    #footer-container > section {
+        margin-right: 32px;
+    }
+    
+    body > main > article > footer {
+        flex-direction: row;
+    }
+
+    img {
+        margin-right: 16px;
+    }
+
+    body > main {
+        width: 70%;
+    }
+
+}
